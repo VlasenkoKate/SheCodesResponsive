@@ -92,3 +92,16 @@ p {
   max-width: 100%;
   height: auto;
 }
+.project-disc,
+.contact-link {
+  text-align: left;
+}
+
+@media (max-width: 800px) {
+  .project-disc,
+  .contact-link,
+  .project-heading {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
